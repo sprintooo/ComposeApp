@@ -5,7 +5,7 @@ plugins {
 
 android {
     namespace = "com.himanshu.androidbasics"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "com.himanshu.androidbasics"
@@ -66,4 +66,6 @@ dependencies {
     androidTestImplementation(libs.androidx.ui.test.junit4)
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
+    implementation(libs.androidx.lifecycle.runtime.compose.v261)
+    implementation(libs.androidx.lifecycle.viewmodel.compose)
 }
